@@ -1,7 +1,6 @@
-function About({ image, about }) {
+function About({ about }) {
   return (
     <aside>
-      <img src={image} alt="blog logo" />
       <p>{about}</p>
     </aside>
   );
